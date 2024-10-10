@@ -1,22 +1,3 @@
----
-base_model: runwayml/stable-diffusion-v1-5
-library_name: diffusers
-license: creativeml-openrail-m
-tags:
-- stable-diffusion
-- stable-diffusion-diffusers
-- text-to-image
-- diffusers
-- diffusers-training
-- stable-diffusion
-- stable-diffusion-diffusers
-- text-to-image
-- diffusers
-- diffusers-training
-inference: true
----
-
-
 # omkar1799/script-sd-annalaura-model
 
 ## Intro
