@@ -7,19 +7,19 @@ In an effort to explore fine-tuning generative AI models, I decided to try my ha
 Here are some examples of Annalaura's work:
 
 <p float="left">
-  <img src="./assets/instagram-1.jpg" width="120" />
-  <img src="./assets/instagram-2.jpg" width="120" /> 
-  <img src="./assets/instagram-3.jpg" width="120" />
-  <img src="./assets/instagram-4.jpg" width="120" />
+  <img src="./assets/instagram-1.jpg" width="180" />
+  <img src="./assets/instagram-2.jpg" width="180" /> 
+  <img src="./assets/instagram-3.jpg" width="180" />
+  <img src="./assets/instagram-4.jpg" width="180" />
 </p>
 
 And here are some examples of outputs created by my model trying to generate similar scenes (TODO):
 
 <p float="left">
-  <img src="./assets/annalaura-1.png" width="120" />
-  <img src="./assets/annalaura-2.png" width="120" /> 
-  <img src="./assets/annalaura-3.png" width="120" />
-  <img src="./assets/annalaura-4.png" width="120" />
+  <img src="./assets/annalaura-1.png" width="180" />
+  <img src="./assets/annalaura-2.png" width="180" /> 
+  <img src="./assets/annalaura-3.png" width="180" />
+  <img src="./assets/annalaura-4.png" width="180" />
 </p>
 
 This pipeline was finetuned from **runwayml/stable-diffusion-v1-5** on the **omkar1799/annalaura-diffusion-dataset** dataset on Huggingface which I curated and annotated myself. I've included some example images generated 
@@ -35,10 +35,10 @@ From left to right, the prompts are:
 - raccoon character wearing gold chain driving red sports car down highway in an annalaura watercolor drawing style
 
 <p float="left">
-  <img src="./assets/runway-1.png" width="120" />
-  <img src="./assets/runway-2a.png" width="120" /> 
-  <img src="./assets/runway-3.png" width="120" />
-  <img src="./assets/runway-4.png" width="120" />
+  <img src="./assets/runway-1.png" width="180" />
+  <img src="./assets/runway-2a.png" width="180" /> 
+  <img src="./assets/runway-3.png" width="180" />
+  <img src="./assets/runway-4.png" width="180" />
 </p>
 
 Unsurprisingly, Stable Diffusion did not do a great job of replicating Anna Laura's unique watercolor style, and furthermore failed to generalize well enough to produce animal-like characters that behaved like humans (i.e. it drew both a turtle and a teacher separately for the second prompt, instead of a single entity). 
@@ -81,10 +81,10 @@ Definitely an improvement! It's starting to look like the model is understanding
 So, here are the outputs at 5,000 steps with all the same hyperparameters against the same four prompts as before:
 
 <p float="left">
-  <img src="./assets/annalaura-1.png" width="120" />
-  <img src="./assets/annalaura-2.png" width="120" /> 
-  <img src="./assets/annalaura-3.png" width="120" />
-  <img src="./assets/annalaura-4.png" width="120" />
+  <img src="./assets/annalaura-1.png" width="180" />
+  <img src="./assets/annalaura-2.png" width="180" /> 
+  <img src="./assets/annalaura-3.png" width="180" />
+  <img src="./assets/annalaura-4.png" width="180" />
 </p>
 
 Much better! There are definitely, some hallucinations (e.g. random letters in text bubbles), but the characters have taken on the shapes of Anna Laura's artwork and the model is doing a good job of generalizing to these similar but new prompts it hasn't seen before.
