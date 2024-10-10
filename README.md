@@ -1,4 +1,4 @@
-# omkar1799/script-sd-annalaura-model
+# annalaura-diffusion
 
 ## Intro
 
